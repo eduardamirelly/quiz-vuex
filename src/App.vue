@@ -4,6 +4,19 @@
 import HelloWorld from './components/HelloWorld.vue';
 </script>
 
+<script>
+  export default {
+    data() {
+      return {
+        
+      }
+    },
+    created() {
+      console.log(this.$store.state.count)
+    }
+  }
+</script>
+
 <template>
   <HelloWorld msg="Hello World!" />
 </template>
