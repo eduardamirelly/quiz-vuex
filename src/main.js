@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 
+import './style.css'
+
 import store from './store'
 
 import { Quasar } from 'quasar'
